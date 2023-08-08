@@ -9,11 +9,11 @@ import os
 class bot(object):
 
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = "3031954"
+    API_HASH = "4a0927ea760cc3f1fd2ce32c0d318c50"
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = "6498892261:AAFS8BiG1i_fiOr1iINO29LbHpH1Qwd3z6Q"
 
 
 class dm(object):

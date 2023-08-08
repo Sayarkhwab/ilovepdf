@@ -83,9 +83,7 @@ class settings(object):
 
     DEFAULT_LANG = os.environ.get("DEFAULT_LANG", "eng")  # use small letters
 
-    MULTI_LANG_SUP = (
-        True if os.environ.get("MULTI_LANG_SUP", "False") == "True" else False
-    )
+    MULTI_LANG_SUP = "True"
 
     REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
 
